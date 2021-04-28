@@ -1,0 +1,21 @@
+server:
+  port: 7001
+
+eureka:
+  # 实例
+  instance:
+    hostname: localhost
+  client:
+    # 是否将自己注册到注册中心
+    register-with-eureka: false
+    # 是否从EurekaServer抓取已有的注册信息，默认为true，单节点无所谓，集群必须为true
+    fetch-registry: false
+    service-url:
+      # 设置eureka注册中心的访问路径
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#      defaultZone: http://activate.navicat.com:7002/eureka/
+#  server:
+    # 关闭保护
+#    enable-self-preservation: false
+    # 设置逐出时间间隔（毫秒）
+#    eviction-interval-timer-in-ms: 2000
