@@ -24,6 +24,7 @@
         <module>cloud-hystrix-dashboard9001</module>
         <module>cloud-zuul-payment8008</module>
         <module>cloud-gateway-gateway9527</module>
+        <module>spring-config3344</module>
     </modules>
     <packaging>pom</packaging>
 

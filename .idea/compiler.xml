@@ -10,6 +10,7 @@
         <module name="cloud-payment8001" />
         <module name="cloud-api-common" />
         <module name="cloud-eureka-server7001" />
+        <module name="spring-config3344" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-hystrix-conusmer84" />
         <module name="cloud-payment8006" />
